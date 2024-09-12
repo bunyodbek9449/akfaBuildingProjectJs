@@ -1,0 +1,68 @@
+/* Сброс базовых стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Верхняя панель */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.social-links a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Навигация */
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: #fff;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+/* О компании */
+.about-company {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-company h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-company img {
+    width: 45%;
+}
